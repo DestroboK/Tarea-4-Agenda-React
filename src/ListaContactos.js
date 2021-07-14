@@ -18,7 +18,7 @@ function CargarContactos({resultados}){
         
         <div className="Lista">
         {
-            contacto && contacto.length>0 && contacto.map((item)=><p className="Contacto">{item.nombre}, {item.apellido} {item.telefono}</p>)
+            contacto && contacto.length>0 && contacto.map((item)=><p className="Contacto">{item.nombre} {item.apellido}, {item.telefono}</p>)
         }
         </div>
 
